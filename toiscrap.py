@@ -7,7 +7,7 @@ import sys
 
 allurls = []
 mon = 1
-sttime = 39814
+sttime = 39965
 url = "http://timesofindia.indiatimes.com/2009/1/1/archivelist/year-2009,month-" + str(mon) + ",starttime-"+ str(sttime) + ".cms"
 for i in xrange(31):
 	url = "http://timesofindia.indiatimes.com/2009/1/1/archivelist/year-2009,month-" + str(mon) + ",starttime-"+ str(sttime) + ".cms"
@@ -48,7 +48,7 @@ for urls in allurls:
 			print replaced
 			print("\n\ni is : %d\n\n"%i)
 			target.write(replaced)
-			target.write("------------------------------------------------------")
+			target.write("\n\n")
 			i+=1
 		if j>=3:
 			print("\n\n")
