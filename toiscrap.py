@@ -7,7 +7,7 @@ import sys
 
 allurls = []
 mon = 1
-sttime = 39965
+sttime = 39815
 url = "http://timesofindia.indiatimes.com/2009/1/1/archivelist/year-2009,month-" + str(mon) + ",starttime-"+ str(sttime) + ".cms"
 for i in xrange(31):
 	url = "http://timesofindia.indiatimes.com/2009/1/1/archivelist/year-2009,month-" + str(mon) + ",starttime-"+ str(sttime) + ".cms"
